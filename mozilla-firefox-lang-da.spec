@@ -1,5 +1,5 @@
 
-%define         _lang		da
+%define		_lang		da
 
 Summary:	Danish resources for Mozilla-firefox
 Summary(pl):	Duñskie pliki jêzykowe dla Mozilli-firefox
