@@ -2,7 +2,7 @@
 %define		_lang		da
 
 Summary:	Danish resources for Mozilla-firefox
-Summary(pl.UTF-8):   Duńskie pliki językowe dla Mozilli-firefox
+Summary(pl.UTF-8):	Duńskie pliki językowe dla Mozilli-firefox
 Name:		mozilla-firefox-lang-%{_lang}
 Version:	2.0.0.1
 Release:	1
