@@ -1,13 +1,13 @@
 %define		_lang		da
-Summary:	Danish resources for Mozilla-firefox
-Summary(pl.UTF-8):	Duńskie pliki językowe dla Mozilli-firefox
+Summary:	Danish resources for Firefox
+Summary(pl.UTF-8):	Duńskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.2
+Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	ddb3d27a39a9e7ea2045a29edb1139d3
+# Source0-md5:	0cc735eefa89bd136c4d44f5ee441d1e
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
@@ -19,10 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_chromedir	%{_firefoxdir}/chrome
 
 %description
-Danish resources for Mozilla-firefox.
+Danish resources for Firefox.
 
 %description -l pl.UTF-8
-Duńskie pliki językowe dla Mozilli-firefox.
+Duńskie pliki językowe dla Firefoksa.
 
 %prep
 
