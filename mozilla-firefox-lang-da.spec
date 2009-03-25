@@ -2,12 +2,12 @@
 Summary:	Danish resources for Firefox
 Summary(pl.UTF-8):	Duńskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.5
+Version:	3.0.7
 Release:	1
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	0cc735eefa89bd136c4d44f5ee441d1e
+# Source0-md5:	bbffbf57cf0d5055a86cea027fbbd06c
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
